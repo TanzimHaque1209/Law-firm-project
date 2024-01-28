@@ -7,8 +7,12 @@
   margin: 0px;
   padding: 0px;
 }
-.header{
+
+body{
     background-color: bisque;
+}
+.header{
+    /* background-color: bisque; */
     padding: 20px 80px;
 
 }
@@ -85,6 +89,8 @@
 .right-banner{
     width: 1000px;
     height: 1000px;
+    display: flex;
+    justify-content: right;
 }
 
 .right-banner img{
