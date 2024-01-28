@@ -1,6 +1,7 @@
 /* html{
     background-color: aqua;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
 
 *{
   margin: 0px;
@@ -33,6 +34,7 @@
     font-weight: bolder;
     text-decoration: none;
     color: black;
+    
 }
 
 .menu ul{
@@ -41,5 +43,53 @@
     
 }
 .menu ul li{
-    margin-left: 10px;
+    margin-left: 30px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+
+/* ------------------ */
+
+.left-banner p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.left-banner h1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.bg-red{
+    margin-right: 60px;
+    color: white;
+    background-color: brown;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.bg-white{
+    color: white;
+    background-color: brown;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.right-banner{
+    width: 1000px;
+    height: 1000px;
+}
+
+.right-banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
