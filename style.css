@@ -184,3 +184,25 @@ body{
 .question{
     font-size: large;
 }
+
+/* About end  */
+
+/* Service start */
+
+.service{
+    background-color: #E8E3D2;
+}
+
+.service .service-1 img{
+    height: 60px;
+    width: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.service .service-1{
+    font-size: 80px;
+    align-items: center;
+    
+}
