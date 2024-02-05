@@ -204,7 +204,7 @@ body{
     margin-right: 20px;
     margin-top: 20px;
     object-fit: cover;
-    /* background-color: aqua; */
+    background-color: beige;
 }
 
 /* .service .service-1 .final-img{
@@ -220,4 +220,30 @@ body{
     font-weight: bolder;
     font-size: 100px;
     font-family: "Open Sans", sans-serif;
+}
+
+.card-1{
+    text-align: left;
+}
+
+.icon{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.card-1 .handcuff{
+    width: 100px;
+    height: 100px;
+}
+
+.card-1 p{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-1 h3{
+    font-weight: bolder;
+    font-size: 70px;
 }
