@@ -3,6 +3,8 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
 
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300..800&display=swap')  */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -218,12 +220,13 @@ body{
 }
 .service h1{
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 150px;
     font-family: "Open Sans", sans-serif;
+    font-style: italic;
 }
 
 .card-1{
-    text-align: left;
+    text-align: center;
 }
 
 .icon{
@@ -233,17 +236,72 @@ body{
     background-color: white;
 }
 
-.card-1 .handcuff{
-    width: 100px;
-    height: 100px;
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
 }
+
 
 .card-1 p{
     font-weight: bold;
     font-size: 50px;
+    /* text-align: justify; */
+}
+.card-1 .handcuff{
+    width: 100px;
+    height: 100px;
+    /* justify-self: center; */
+    /* margin-left: 330px; */
 }
 
 .card-1 h3{
     font-weight: bolder;
     font-size: 70px;
 }
+
+.family{
+    width: 100px;
+    height: 100px;
+}
+
+.land-loan{
+    width: 100px;
+    height: 100px;
+}
+
+.card-2 h3{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.card-3 h3{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+
+.card-2 p{
+    font-weight: bold;
+    font-size: 50px;
+    /* text-align: justify; */
+}
+
+.card-3 p{
+    font-weight: bold;
+    font-size: 50px;
+    /* text-align: justify; */
+}
+
+/* .card-1{
+    border: 10px solid black;
+   
+}
+.card-2{
+    border: 10px solid black;
+
+}
+.card-3{
+    border: 10px solid black;
+
+} */
