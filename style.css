@@ -220,9 +220,10 @@ body{
 }
 .service h1{
     font-weight: bolder;
-    font-size: 150px;
+    font-size: 125px;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
+    margin-top: 5px;
 }
 
 .card-1{
@@ -240,12 +241,14 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
+    margin-top: 100px;
 }
 
 
 .card-1 p{
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
     /* text-align: justify; */
 }
 .card-1 .handcuff{
@@ -257,7 +260,7 @@ body{
 
 .card-1 h3{
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .family{
@@ -272,24 +275,26 @@ body{
 
 .card-2 h3{
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .card-3 h3{
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 
 .card-2 p{
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
     /* text-align: justify; */
 }
 
 .card-3 p{
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
     /* text-align: justify; */
 }
 
