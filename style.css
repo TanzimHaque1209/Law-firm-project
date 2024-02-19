@@ -315,8 +315,40 @@ body{
 
 .features{
     background-color: #343434;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 0px;
+}
+
+.meeticon{
+    width: 100px;
+    height: 100px;
+}
+
+.feat1{
+    display: flex;
+    gap: 10px;
+}
+
+.expert{
+    margin-top: 0px;
 }
 
 .expert h2{
     color: white;
+}
+.exp-2ndline{
+    /* border: 10px solid white; */
+    margin-top: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.exp-1stline{
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.expert p{
+    color: white;
+    margin-top: 0px;
 }
