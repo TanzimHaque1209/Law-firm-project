@@ -318,9 +318,11 @@ body{
 .features{
     background-color: #343434;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-left: 0px;
-    
+    /* padding: 0px 0px; */
+    /* padding-bottom: 25px;        */
+
 }
 
 .meeticon{
@@ -328,13 +330,33 @@ body{
     height: 100px;
 }
 
-.feat1{
+.feature-text img{
+    padding: 10px;
+}
+
+.feature-text{
     display: flex;
     gap: 10px;
-    border-right: 5px solid white;
+    border-right: 1px solid white;
+    
     /* padding: 45px auto; */
-    padding: 20px 220px;
+    /* padding: 20px 220px; */
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    padding-top: 70px;
 }
+
+.expert1{
+    /* padding-right: 50px; */
+    padding-top: 45px;
+    color: white;
+}
+
+/* .feature-text3{
+    /* padding-left: 150px; */
+    /* padding-right: 70px; */
+
 
 .expert{
     margin-top: 0px;
