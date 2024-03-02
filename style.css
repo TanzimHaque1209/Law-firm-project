@@ -386,3 +386,16 @@ body{
     color: white;
     margin-top: 0px;
 }
+
+/* imagesection */
+
+.image{
+    margin: 50px;
+    /* width: 100%; */
+    background-color: white;
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
