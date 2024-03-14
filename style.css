@@ -403,3 +403,35 @@
 
 /* Testimony start */
 
+.testimony{
+ text-align: center;
+ background-image: url("./images/lawbackground3.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top right;
+}
+.testimony img{
+    height: 70px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.testimony h1{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 0px;
+    color: burlywood;
+}
+
+.testimonypara{
+    border: 25px dashed black;
+    border-radius: 25px;
+    width: 50%;
+    margin: 20px 1250px;
+    padding: 25px;
+    font-size: 80px;
+    text-align: justify;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+/* Testimony end */
