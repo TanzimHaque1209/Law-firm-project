@@ -7,6 +7,7 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300..800&display=swap')  */
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -20,7 +21,7 @@
 .header{
     background-color: bisque;
     padding: 20px 80px;
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 
 .navbar{
@@ -112,8 +113,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 400px;
-    margin: 50px;
-    margin-bottom: 30px;
+    /* margin: 50px;
+    margin-bottom: 30px; */
+    background-color: bisque;
+    padding-top: 110px;
+    padding-bottom: 30px;
     
     /* background-color: white;
     margin: 0px; */     
@@ -391,9 +395,14 @@
 /* imagesection */
 
 .image{
-    margin: 50px;
+    /* margin: 50px; */
     /* width: 100%; */
     background-color: white;
+    margin: 60px auto;
+
+    width: 2500px;
+    
+    /* height: 10px; */
 }
 
 .image img{
@@ -409,6 +418,8 @@
  background-repeat: no-repeat;
  background-size: cover;
  background-position: top right;
+ padding-bottom: 30px;
+ /* margin-top: 0px; */
 }
 .testimony img{
     height: 70px;
@@ -416,8 +427,8 @@
     margin-right: 20px;
 }
 
-.testimony h1{
-    font-size: 100px;
+.testimony .headline{
+    font-size: 150px;
     font-weight: bolder;
     margin-left: 0px;
     color: burlywood;
@@ -427,11 +438,47 @@
     border: 25px dashed black;
     border-radius: 25px;
     width: 50%;
-    margin: 20px 1250px;
+    margin: 20px 1200px;
     padding: 25px;
     font-size: 80px;
     text-align: justify;
     color: white;
     font-family: "Open Sans", sans-serif;
 }
+
+.clients{
+    font-size: 150px;
+    font-weight: bolder;
+    color: burlywood;
+    margin-left: 20px;
+}
 /* Testimony end */
+
+/* Quoatation start */
+.quote{
+    
+    /* background-color: aqua; */
+    margin-top: 0px;
+    /* background-color: brown;
+} */
+}
+.quote p{
+    font-size: 120px;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/* Quotation end */
+
+/* Footer start */
+.footer{
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.footer span{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+/* Footer end */
