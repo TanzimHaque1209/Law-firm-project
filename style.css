@@ -144,6 +144,7 @@
     font-size: 100px;
     font-weight: 100;
     text-align: center;
+    /* font-family: "Cormorant Garamond", serif; */
     
 }
 .right-ab .back-info{
@@ -174,15 +175,17 @@
 .right-ab ul li img{
     width: 40px;
     margin-right: 30px;
+    border-radius: 50%;
+    border: 5px solid yellow;
 }
 
 .right-ab ul li{
     display: flex;
     align-items: center;
-    font-size: 40px;
-    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    font-family: "Cormorant Garamond", serif;
     margin-bottom: 4rem;
-    color: crimson;
+    color: brown;
 }
 .left-ab{
     width: 8000px;
@@ -362,6 +365,7 @@
     padding-top: 70px;
     justify-content: center;
     align-items: center;
+    /* text-align: center; */
 }
 
 .expert1{
@@ -402,7 +406,7 @@
     margin-top: 0px;
 }
 
-/* imagesection */
+/* imagesection start */
 
 .image{
     /* margin: 50px; */
@@ -420,6 +424,8 @@
     object-fit: cover;
 }
 
+/* imagesection end */
+
 /* Testimony start */
 
 .testimony{
@@ -427,7 +433,7 @@
  background-image: url("./images/lawbackground3.jpg");
  background-repeat: no-repeat;
  background-size: cover;
- background-position: top right;
+ /* background-position: top right; */
  padding-bottom: 30px;
  /* margin-top: 0px; */
 }
@@ -447,13 +453,15 @@
 .testimonypara{
     border: 25px dashed black;
     border-radius: 25px;
-    width: 50%;
-    margin: 20px 1200px;
+    margin-left: 1650px;
     padding: 25px;
     font-size: 80px;
     text-align: justify;
     color: white;
     font-family: "Open Sans", sans-serif;
+    width: 40%;
+    align-content: right;
+    /* background-position: left bottom; */
 }
 
 .clients{
@@ -461,6 +469,7 @@
     font-weight: bolder;
     color: burlywood;
     margin-left: 20px;
+    text-align: center;
 }
 /* Testimony end */
 
@@ -492,3 +501,5 @@
     font-family: "Open Sans", sans-serif;
 }
 /* Footer end */
+
+/* -----Responsive Design Start-------- */
