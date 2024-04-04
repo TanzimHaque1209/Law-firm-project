@@ -11,7 +11,7 @@
 *{
     margin: 0px;
     padding: 0px;
-
+    overflow: 0;
 }
 
 /* body{
@@ -70,7 +70,7 @@
 }
 
 
-/* ------------------ */
+/* --------banner start---------- */
 
 .left-banner p{
     font-size: 50px;
@@ -103,11 +103,11 @@
     font-size: 40px;
 }
 
+
+
 .right-banner{
-    width: 1000px;
     height: 1000px;
-    display: flex;
-    justify-content: right;
+    width: 1000px;
 }
 
 .right-banner img{
@@ -117,7 +117,8 @@
     object-fit: cover;
 }
 
-/* ---------- */
+/* --------banner end---------- */
+/* --------about start---------- */
 .about{
     display: flex;
     justify-content: space-between;
@@ -405,7 +406,7 @@
     color: white;
     margin-top: 0px;
 }
-
+/* feature section end  */
 /* imagesection start */
 
 .image{
@@ -437,7 +438,7 @@
  padding-bottom: 30px;
  /* margin-top: 0px; */
 }
-.testimony img{
+/* .testimony img{
     height: 70px;
     width: 80px;
     margin-right: 20px;
@@ -448,7 +449,7 @@
     font-weight: bolder;
     margin-left: 0px;
     color: burlywood;
-}
+} */
 
 .testimonypara{
     border: 25px dashed black;
@@ -503,3 +504,487 @@
 /* Footer end */
 
 /* -----Responsive Design Start-------- */
+
+
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+    /* Header  */
+
+    /* Navbar and menu */
+
+    .header{
+        background-color: bisque;
+        padding: 20px 30px;
+        /* margin-bottom: 130px; */
+    }
+    
+    .navbar{
+    
+        display: block;
+        
+        /* flex: 50%; */
+    }
+    
+    .navbar .menu{
+        /* margin-right: 550px; */
+        /* border: 10px solid black; */
+        
+        margin-left: 0px;
+        
+    }
+
+    .logo{
+        width: 150px;
+        /* flex: 25%; */
+        /* border: 10px solid black; */
+    }
+    
+    .menu ul li a{
+        font-size: 30px;
+        
+        
+    }
+    
+    .menu ul{
+        
+        display: block;
+       /* border: 10px solid black; */
+       padding-left: 0px;
+       margin-top: 30px;
+       background-color: #fff5d7;
+        
+    }
+    .menu ul li{
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        /* font-size: 30px; */
+    }
+
+    .menu ul li:hover{
+        background-color: grey;
+        color: white;
+  }
+
+  .menu ul li a:hover{
+    
+    color: white;
+    font-size: 40px;
+}
+/* Banner section responsive start */
+
+.left-banner p{
+    font-size: 25px;
+    
+}
+
+.left-banner h1{
+    font-size: 38px;
+    
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.bg-red{
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.bg-white{
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.all-buttons{
+    margin-bottom: 30px;
+}
+
+.right-banner{
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+
+.right-banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+/* Banner section responsive end */
+
+/* About section start */
+
+
+.about{
+    display: block;
+    
+    gap: 400px;
+    /* margin: 50px;
+    margin-bottom: 30px; */
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    
+    /* background-color: white;
+    margin: 0px; */     
+}
+
+.right-ab{
+  margin: 20px auto;
+  border: 5px solid black;
+  /* width: 800px;
+  height: 800px;
+   */
+}
+.right-ab h1{
+    font-size: 40px;
+    font-weight: 50;
+    /* font-family: "Cormorant Garamond", serif; */
+    
+}
+.right-ab .back-info{
+    padding: 20px;
+}
+.right-ab .back-info{
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    /* color: white; */
+}
+
+.right-ab .question{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.right-ab .back-info{
+    color: #343434;
+}
+
+
+.right-ab ul {
+    list-style: none;
+    padding: 10px auto;
+}
+
+.right-ab ul li img{
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 0px;
+
+}
+
+.right-ab ul li{
+    display: flex;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bolder;
+
+}
+.left-ab{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    
+    /* border: 10px solid black; */
+    
+}
+
+
+.about .left-ab img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    /* object-fit: cover; */
+}
+.question{
+    font-size: large;
+}
+
+/* About section end */
+
+/* Service section start */
+
+
+.service{
+    background-color: #E8E3D2;
+    padding: 50px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.service .service-1 img{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    object-fit: cover;
+    background-color: beige;
+}
+
+/* .service .service-1 .final-img{
+    transform: rotate(-360deg);
+} */
+
+.service .service-1{
+    font-size: 25px;
+    align-items: center;
+    
+}
+.service h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.card-1{
+    text-align: center;
+}
+
+.icon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 50px;
+    margin-top: 70px;
+}
+
+
+.card-1 p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    /* text-align: justify; */
+}
+.card-1 .handcuff{
+    width: 50px;
+    height: 50px;
+    /* justify-self: center; */
+    /* margin-left: 330px; */
+}
+
+.card-1 h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.family{
+    width: 50px;
+    height: 50px;
+}
+
+.land-loan{
+    width: 50px;
+    height: 50px;
+}
+
+.card-2 h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card-3 h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.card-2 p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    /* text-align: justify; */
+}
+
+.card-3 p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    /* text-align: justify; */
+}
+
+
+/* Service section end */
+
+/* Features section start */
+
+.features{
+    background-color: #343434;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0px;
+    /* padding: 0px 0px; */
+    /* padding-bottom: 25px;        */
+
+}
+
+.meeticon{
+    width: 50px;
+    height: 50px;
+}
+
+.feature-text img{
+    padding: 5px;
+}
+
+.feature-text{
+    display: block;
+    border-right: 1px solid white;
+    text-align: center;
+    /* padding: 45px auto; */
+    /* padding: 20px 220px; */
+    /* padding-left: 150px; */
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    
+    /* text-align: center; */
+}
+
+.expert1{
+    /* padding-right: 50px; */
+    /* padding-top: 45px; */
+    color: white;
+}
+
+/* .feature-text3{
+    /* padding-left: 150px; */
+    /* padding-right: 70px; */
+
+
+.expert{
+    margin-top: 0px;
+}
+
+.expert h2{
+    color: white;
+}
+.exp-2ndline{
+    /* border: 10px solid white; */
+    margin-top: 0px;
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "CormorantGaramond"; */
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.exp-1stline{
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.expert p{
+    color: white;
+    margin-top: 0px;
+}
+/* Features section end  */
+
+/* Image section start */
+
+.image{
+    /* margin: 50px; */
+    /* width: 100%; */
+    background-color: white;
+    margin: 60px auto;
+
+    width: 350px;
+
+    /* height: 500px; */
+    /* height: 10px; */
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Image section end */
+
+/* Testimony section start */
+
+
+.testimony{
+    text-align: center;
+    background-image: url("./images/lawbackground3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top right; */
+    padding-bottom: 30px;
+    /* margin-top: 0px; */
+   }
+   
+   
+   
+   .testimonypara{
+       border: 15px dashed black;
+       border-radius: 25px;
+       margin: 20px auto;
+       padding: 15px;
+       font-size: 20px;
+       text-align: justify;
+       /* align-items: left; */
+       color: white;
+       font-family: "Open Sans", sans-serif;
+       width: 50%;
+       align-content: right;
+       font-weight: bold;
+       /* background-position: left bottom; */
+   }
+   
+   .clients{
+       font-size: 50px;
+       
+   }
+
+/* Testimony section end */
+
+/* quote section start */
+
+.quote{
+    
+    /* background-color: aqua; */
+    margin-top: 0px;
+    /* background-color: brown;
+} */
+}
+.quote p{
+    font-size: 40px;
+    font-style: oblique;
+}
+/* quote section end */
+
+
+/* Footer start */
+.footer{
+    background-color: #F5F5F5;
+    
+}
+
+.footer span{
+    font-size: 20px;
+}
+/* Footer end */
+
+}
